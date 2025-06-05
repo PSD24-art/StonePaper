@@ -93,18 +93,28 @@ body{
     width: 6rem;
     margin-bottom: 2rem;
     border-radius: 50%;
+   
 }
 
-.player{
+#player1{
     position: absolute;
     top: 55%;
     align-self: auto;
     font-size: 20px;
     font-weight: bolder;
- 
+    margin-left:170px;
 }
 
-.note{
+#player2{
+    position: absolute;
+    top: 55%;
+    align-self: auto;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-right: 170px;
+}
+
+#note{
     display: flex;
     align-items: center;
     justify-content: center;
